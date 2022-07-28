@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T15:26:56.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="nBMMZhUp38Yyj_-P0lzc" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T15:34:15.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="A8xveIRQ6etvuAnH53d_" version="20.2.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1483" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1050" pageHeight="1200" background="#F4F1DE" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1050" pageHeight="1200" background="#F4F1DE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -393,21 +393,21 @@
           <mxGeometry x="810" y="655" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IdcEPTIduuPKOfjcn7P7-178" value="게시글" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;fontColor=#393C56;strokeColor=#E07A5F;strokeWidth=1;fillColor=#F2CC8F;" parent="1" vertex="1">
-          <mxGeometry x="775" y="687" width="118.46" height="170" as="geometry" />
+          <mxGeometry x="775" y="687" width="118.46" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="IdcEPTIduuPKOfjcn7P7-179" value="- 게시글 작성일&#xa;- 게시글 수정일&#xa;- 작성자 닉네임 or ID&#xa;- 작성자 profile img&#xa;- Content&#xa;- 유저태그 기능&#xa;- 댓글&#xa;- 글 목록보기&#xa;&#xa;- 좋아요 or Follow&#xa;button click =&gt; Login" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=9;fontColor=#393C56;" parent="IdcEPTIduuPKOfjcn7P7-178" vertex="1">
-          <mxGeometry y="30" width="118.46" height="140" as="geometry" />
+        <mxCell id="IdcEPTIduuPKOfjcn7P7-179" value="- 게시글 작성일&#xa;- 게시글 수정일&#xa;- 작성자 닉네임 or ID&#xa;- 작성자 profile img&#xa;- Content&#xa;- 유저태그 기능&#xa;- 댓글&#xa;- 글 목록보기&#xa;---- 작성자 ---------&#xa;* 수정하기&#xa;* 삭제하기&#xa;* 같이 간 사람 태그하기&#xa;&#xa;- 좋아요 or Follow&#xa;button click =&gt; Login" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=9;fontColor=#393C56;" parent="IdcEPTIduuPKOfjcn7P7-178" vertex="1">
+          <mxGeometry y="30" width="118.46" height="170" as="geometry" />
         </mxCell>
         <mxCell id="IdcEPTIduuPKOfjcn7P7-182" value="" style="endArrow=none;html=1;rounded=0;fontSize=18;fontColor=#393C56;strokeColor=#E07A5F;strokeWidth=1;entryX=0.633;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#F4F1DE;" parent="1" target="IdcEPTIduuPKOfjcn7P7-156" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="990" y="880" as="sourcePoint" />
+            <mxPoint x="990" y="900" as="sourcePoint" />
             <mxPoint x="990" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IdcEPTIduuPKOfjcn7P7-183" value="" style="endArrow=none;html=1;rounded=0;fontSize=18;fontColor=#393C56;strokeColor=#E07A5F;strokeWidth=1;labelBackgroundColor=#F4F1DE;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="660" y="880" as="sourcePoint" />
-            <mxPoint x="990" y="880" as="targetPoint" />
+            <mxPoint x="660" y="900" as="sourcePoint" />
+            <mxPoint x="990" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
